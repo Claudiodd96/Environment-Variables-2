@@ -1,0 +1,11 @@
+environment: test
+welcomeMsg1:
+  customVar1: Hello from Test
+server:
+  port: 4000
+---
+environment: prod
+welcomeMsg2:
+  customVar2: Hello form Prod
+server:
+  port: 5000
